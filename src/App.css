@@ -1,38 +1,67 @@
-.App {
+.center-text{
   text-align: center;
+  width:100%
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+*{
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.grid-center{
+  display: grid;
+  place-items: center;
+  margin-top: 40px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input{
+  margin-bottom: 10px;
+}
+.outerBorder-circle{
+  height: 50px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
-
-.App-link {
-  color: #61dafb;
+.circle{
+  width: 10px;
+  height:10px;
+  margin:5px;
+  border-radius: 50%;
+  border:1px solid rgba(0, 0, 0, 0.089);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.circle-active{
+  background-color: rgb(67, 67, 253);
+}
+.displayInfo{
+  max-width: 1000px;
+  padding: 10px;
+  width: 100%;
+}
+.center-info{
+display: grid;
+  width: 100%;
+  place-items: center;
+}
+.HeadderInfo{
+  margin-top: 20px;
+  font-size: 1.5rem;
+  margin-bottom: 5px;
+}
+.btn{
+margin-top: 30px;
+padding: 5px;
+border-radius: 5px;
+font-size: 20px;
+border: 1px solid rgba(0, 0, 255, 0.11);
+background-color: rgba(0, 0, 255, 0.11);
+}
+.btn-row{
+  display: flex;
+  justify-content: space-between;
+}
+.Confirm-btn{
+  margin-left: 10px;
+  width: 100px;
+}
+.homeInfo{
+  font-size: 1.5rem;
+  line-height: 50px;
 }
